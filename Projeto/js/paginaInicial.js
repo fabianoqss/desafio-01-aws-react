@@ -1,5 +1,5 @@
 function redirecionarDocumento() {
-  window.location.href = "apresentacao.html";
+  window.location.href = "page2.html";
 }
 
 setTimeout(redirecionarDocumento, 4000);
