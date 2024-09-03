@@ -1,0 +1,18 @@
+body {
+  background-color: #ff6064;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-top: 150px;
+}
+
+.imagens {
+  display: grid;
+}
+
+#Img-loading {
+  justify-self: center;
+}
