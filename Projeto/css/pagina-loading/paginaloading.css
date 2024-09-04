@@ -3,9 +3,13 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
+  font-family: Inter-Regular, Helvetica;
+  margin: 0px;
 }
 
 img {
+  max-width: 100%;
+  display: block;
   margin-top: 150px;
 }
 
