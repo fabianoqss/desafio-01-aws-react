@@ -1,16 +1,55 @@
 body {
   font-family: Inter-Regular, Helvetica;
-  margin: 0px;
-}
-/*CSS Reset*/
-h1,
-h2,
-h3,
-p {
-  margin: 0px;
+  display: grid;
+  justify-content: center;
+  margin-top: 80px;
 }
 
 img {
   max-width: 100%;
   display: block;
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  font-size: 1.1875rem;
+  color: #000000;
+}
+
+.container-conteudo {
+  display: grid;
+  gap: 25px;
+  margin-top: 25px;
+  justify-items: center;
+}
+
+.bolinha.ativa {
+  background-color: #ff6064;
+  width: 45px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.container-bolinhas {
+  display: flex;
+  gap: 15px;
+}
+
+.bolinhas {
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6064;
+  padding: 15px;
+  width: 300px;
+  border-radius: 25px;
 }
