@@ -48,13 +48,37 @@ h1 {
 .formulario label {
   display: block;
   margin-bottom: 4px;
+  margin-left: 10px;
 }
 
 .formulario input {
   font-size: 1rem;
   border: 1px solid black;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 25px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.botao {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6064;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.botao.goback {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
 }
