@@ -1,0 +1,82 @@
+body {
+  font-family: Inter-Regular, Helvetica;
+  color: #fff;
+}
+
+/* CSS Reset*/
+h1,
+p,
+body {
+  margin: 0px;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+#Or {
+  margin-top: 60px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.seta {
+  position: absolute;
+  margin-left: 150px;
+}
+
+h1 {
+  font-size: 2.375rem;
+  color: #000;
+  text-align: center;
+}
+
+.links-botao {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-self: start;
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.botao_google a,
+.botao_apple a,
+.botao_facebook a {
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  gap: 20px;
+  border: 2px solid #000;
+}
+
+.links-botao a:hover {
+  background-color: #dddddd;
+}
+
+.botao {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6064;
+  padding: 15px;
+  width: 300px;
+  border-radius: 25px;
+  margin: 60px;
+}
+
+p a {
+  text-decoration: none;
+  color: #ff6064;
+}
