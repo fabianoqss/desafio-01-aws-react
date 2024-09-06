@@ -1,8 +1,11 @@
 body {
   font-family: Inter-Regular, Helvetica;
+}
+/* CSS Reset*/
+p,
+body {
   margin: 0px;
 }
-
 .seta {
   position: absolute;
   margin-top: 100px;
@@ -19,7 +22,6 @@ body {
 p {
   font-size: 1.1875rem;
   color: #000000;
-  margin: 0px;
 }
 
 .conteudo-principal {

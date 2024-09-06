@@ -2,6 +2,11 @@ body {
   font-family: Inter-Regular, Helvetica;
   display: grid;
   justify-content: center;
+}
+
+/* CSS Reset*/
+p,
+body {
   margin: 0px;
 }
 
@@ -15,7 +20,6 @@ img {
 p {
   font-size: 1.1875rem;
   color: #000000;
-  margin: 0px;
 }
 
 .container-conteudo {
