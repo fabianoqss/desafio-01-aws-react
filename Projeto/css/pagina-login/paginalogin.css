@@ -80,3 +80,7 @@ p a {
   text-decoration: none;
   color: #ff6064;
 }
+
+.botao:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+}
