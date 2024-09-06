@@ -50,7 +50,7 @@ p {
   border-radius: 10px;
 }
 
-a {
+.botao {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -59,4 +59,8 @@ a {
   padding: 15px;
   width: 300px;
   border-radius: 25px;
+}
+
+.botao:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
 }

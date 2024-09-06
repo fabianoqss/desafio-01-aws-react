@@ -1,5 +1,10 @@
 body {
   font-family: Inter-Regular, Helvetica;
+}
+
+/* CSS Reset*/
+p,
+body {
   margin: 0px;
 }
 
@@ -19,7 +24,6 @@ body {
 p {
   font-size: 1.1875rem;
   color: #000000;
-  margin: 0px;
 }
 
 .conteudo-principal {
@@ -48,7 +52,7 @@ p {
   border-radius: 10px;
 }
 
-a {
+a:last-child {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -59,6 +63,6 @@ a {
   border-radius: 25px;
 }
 
-a:hover {
+.botao:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
 }
