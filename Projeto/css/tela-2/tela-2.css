@@ -20,7 +20,6 @@ img {
 p {
   font-size: 1.1875rem;
   color: #000000;
-  word-break: break-all;
 }
 
 .container-conteudo {
@@ -73,6 +72,8 @@ a:hover {
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
+    word-break: break-word;
+    max-width: 240px;
   }
   .bolinha.ativa {
     width: 40px;
