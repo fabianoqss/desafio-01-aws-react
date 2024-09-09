@@ -20,3 +20,9 @@ img {
 #Img-loading {
   justify-self: center;
 }
+
+@media (max-width: 375px) {
+  img {
+    margin-top: 100px;
+  }
+}

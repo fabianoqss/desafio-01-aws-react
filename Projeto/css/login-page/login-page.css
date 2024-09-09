@@ -84,3 +84,14 @@ p a {
 .botao:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
 }
+
+@media (max-width: 375px) {
+  .seta {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
