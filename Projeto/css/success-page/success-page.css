@@ -1,0 +1,40 @@
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+#userInfo {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.infoLabel {
+  font-weight: bold;
+  text-align: left;
+}
+
+.infoValue {
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  #userInfo {
+    width: 100%;
+  }
+
+  .infoRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .infoLabel {
+    margin-bottom: 5px;
+  }
+}
