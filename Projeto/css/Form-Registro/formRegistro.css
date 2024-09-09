@@ -79,12 +79,17 @@ button {
   background-color: #ff6064;
   padding: 15px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .botao.goback {
   color: #000;
   background-color: #fff;
   border: 1px solid black;
+}
+
+.botao.goback:hover {
+  background-color: #dddddd;
 }
 
 @media (max-width: 375px) {
