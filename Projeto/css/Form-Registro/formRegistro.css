@@ -59,6 +59,10 @@ input {
   box-sizing: border-box;
 }
 
+button {
+  border: none;
+}
+
 .botoes {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -67,6 +71,7 @@ input {
 }
 
 .botao {
+  font-size: 1rem;
   display: inline-block;
   text-align: center;
   text-decoration: none;

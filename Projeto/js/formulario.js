@@ -1,8 +1,13 @@
-const form = document.querySelector("#conteudo-form");
-const dados = {};
+const elemento = document.querySelector("conteudo-form");
+const name = document.getElementById("name").value;
+const email = document.getElementById("email").value;
+const senha = document.getElementById("senha").value;
 
-function handleChange(event) {
-  dados[event.target.name] = event.target.value;
+function submitForm() {
+  localStorage.setItem("name", name);
+  localStorage.setItem("email", email);
+  localStorage.setItem("senha", senha);
+  window.location.href = "/Projeto/success-page.html";
 }
 
-form.addEventListener("change", handleChange);
+elemento.addEventListener("submit", submitForm);
